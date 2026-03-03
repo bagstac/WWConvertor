@@ -1,5 +1,24 @@
 /* ── WWConverter custom styles ── */
 
+/* ── Reference chart row highlights ── */
+/* Bootstrap 5 tables use --bs-table-bg on cells; set the variable on the row so it inherits */
+.chart-row-half     { --bs-table-bg: #cfe2ff; font-weight: 600; }
+.chart-row-quarter  { --bs-table-bg: #d1e7dd; font-weight: 600; }
+.chart-row-eighth   { --bs-table-bg: #fff3cd; }
+.chart-row-sixteenth{ --bs-table-bg: #f8f9fa; }
+
+/* Legend swatches */
+.chart-key {
+  display: inline-block;
+  width: 14px; height: 14px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.chart-key-half      { background-color: #cfe2ff; border: 1px solid #9ec5fe; }
+.chart-key-quarter   { background-color: #d1e7dd; border: 1px solid #a3cfbb; }
+.chart-key-eighth    { background-color: #fff3cd; border: 1px solid #ffe69c; }
+.chart-key-sixteenth { background-color: #f8f9fa; border: 1px solid #dee2e6; }
+
 body {
   background-color: #f8f9fa;
 }
