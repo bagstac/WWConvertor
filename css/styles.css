@@ -1,0 +1,25 @@
+/* ── WWConverter custom styles ── */
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Result display box */
+.result-box {
+  background-color: #e9f5ff;
+  border: 1px solid #b6d9f5;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+
+.result-main {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #0d6efd;
+  line-height: 1.2;
+}
+
+.result-main sup,
+.result-main sub {
+  font-size: 1rem;
+}
